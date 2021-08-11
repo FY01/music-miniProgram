@@ -1,23 +1,88 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <block wx:if="{{canIUseOpenData}}">
-      <view class="userinfo-avatar" bindtap="bindViewTap">
-        <open-data type="userAvatarUrl"></open-data>
+<!--pages/index/index.wxml-->
+<view class="indexContainer">
+
+<!-- carousel  -->
+  <swiper 
+  class="bannersSwiper"
+  indicator-dots
+  indicator-color="ivory"
+  indicator-active-color="#d43c33"
+  autoplay
+  circular
+  >
+    <swiper-item wx:for="{{bannerList}}" wx:key="bannerId">
+      <image src="{{item.pic}}"></image>
+    </swiper-item>
+  </swiper>
+
+<!--  navigator bar-->
+  <view class = "navContainer">
+    <view class = "navItem">
+      <text class="iconfont icon-tuijian"></text>
+      <text>每日推荐</text>
+    </view>
+    <view class = "navItem">
+      <text class = "iconfont icon-gedan"></text>
+      <text>歌单</text>
+    </view>
+    <view class = "navItem">
+      <text class = "iconfont icon-paihangbang"></text>
+      <text>排行榜</text>
+    </view>
+    <view class = "navItem">
+      <text class = "iconfont icon-diantai"></text>
+      <text>电台</text>
+    </view>
+    <view class = "navItem">
+      <text class = "iconfont icon-zhibobofangshexiangjiguankanxianxing"></text>
+      <text>直播</text>
+    </view>
+  </view>
+
+<!--  recommend -->
+  <view class = "recommendContainer">
+  <!--   recommend header-->
+  <NavHeader title = "推荐歌曲" nav = "为你精心推荐"></NavHeader>
+  <!--recommend content-->
+    <scroll-view
+      class = "recommendScroll"
+      enable-flex
+      scroll-x
+    >
+      <view class="scrollItem" wx:for = "{{recommendList}}" wx:key = "id" wx:for-item = "recommendItem">
+        <image src = "{{recommendItem.picUrl}}"></image>
+        <text>{{recommendItem.name}}</text>
       </view>
-      <open-data type="userNickName"></open-data>
-    </block>
-    <block wx:elif="{{!hasUserInfo}}">
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
-      <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-      <view wx:else> 请使用1.4.4及以上版本基础库 </view>
-    </block>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+    </scroll-view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+<!--  topList -->
+  <view class = "topListContainer">
+    <!--   topList header-->
+    <NavHeader title = "排行榜" nav = "热歌风向标"></NavHeader>
+    <!--topList content-->
+    <swiper
+      class = "topListSwiper"
+      circular
+      next-margin = "50rpx"
+    >
+      <swiper-item wx:for="{{topList}}" wx:key="name" >
+        <view class="swiperItem">
+          <view class="title">{{item.name}}</view>
+          <view
+                  class="musicItem"
+                  wx:for="{{item.list}}"
+                  wx:for-index="idx"
+                  wx:for-item="itemName"
+                  wx:key="id"
+          >
+            <image src = "{{itemName.al.picUrl}}"></image>
+            <text class="count">{{idx+1}}</text>
+            <text class="musicName">{{itemName.name}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
   </view>
+
 </view>
