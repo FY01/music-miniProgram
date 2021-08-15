@@ -40,8 +40,8 @@ Page({
     /*todo
       没有权限获取数据？？？
      */
-    let result = await request('/user/record', {uid: userId, type: 0});
-    console.log(result)
+    // let result = await request('/user/record', {uid: userId, type: 0});
+    // console.log(result)
     // if (result.code === 200){
       let list = [
         {

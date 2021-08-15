@@ -56,7 +56,7 @@ Page({
       return;
     }
   //  2：发起登陆请求
-    let result = await request("/login/cellphone",{phone,password})
+    let result = await request("/login/cellphone",{phone,password,isLoading:true})
   //  200 :success; 501:密码错误；502：账号不存在；其他：登陆错误
     if (result.code === 200){
       wx.showToast({
