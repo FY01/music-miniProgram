@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="51eb71fc-df5b-4c61-a911-e574f247fd47" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/personal/personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/personal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/video/video.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/video.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/video/video.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/video.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +67,29 @@
       <workItem from="1628732216106" duration="11006000" />
       <workItem from="1628818840470" duration="7487000" />
       <workItem from="1628930629636" duration="1232000" />
-      <workItem from="1628995189349" duration="1732000" />
+      <workItem from="1628995189349" duration="9198000" />
+      <workItem from="1629078959962" duration="9226000" />
+      <workItem from="1629121544699" duration="2772000" />
+      <workItem from="1629164887893" duration="4402000" />
+      <workItem from="1629186970579" duration="2130000" />
+      <workItem from="1629340080564" duration="5640000" />
+      <workItem from="1629424811564" duration="5983000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/songDetail/songDetail.js</url>
+          <line>82</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

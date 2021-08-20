@@ -1,0 +1,98 @@
+/* pages/recommendSong/recommendSong.wxss */
+
+/*header style */
+.header {
+    width: 100%;
+    height: 300rpx;
+    position: relative;
+}
+.header image{
+    width: 100%;
+    height: 100%;
+}
+.header .date{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50rpx 0 0 -50rpx;
+
+    width: 100rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    color: white;
+}
+
+/*content list style*/
+/*list header*/
+.listContainer {
+    position: relative;
+    top: -20rpx;
+    padding: 0 20rpx;
+    border-radius: 20rpx;
+    background-color: #fff;
+}
+.listContainer .listHeader{
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.listContainer .listHeader .selectMore{
+    float: right;
+}
+/*    list content*/
+.listContainer .listContainer {
+    height: calc(100vh - 380rpx);
+}
+
+.listContainer .scrollItem {
+    display: flex;
+    position: relative;
+    margin-bottom: 20rpx;
+}
+.listContainer .scrollItem image {
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 8rpx;
+}
+.listContainer .scrollItem .musicInfo {
+    height: 80rpx;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rpx;
+}
+.listContainer .scrollItem .musicInfo text {
+    height: 40rpx;
+    font-size: 24rpx;
+    line-height: 40rpx;
+    max-width: 400rpx;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listContainer .scrollItem .iconfont {
+    position: absolute;
+    right: 0;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

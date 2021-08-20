@@ -17,7 +17,7 @@
 
 <!--  navigator bar-->
   <view class = "navContainer">
-    <view class = "navItem">
+    <view class = "navItem" bindtap = "toRecommendSong">
       <text class="iconfont icon-tuijian"></text>
       <text>每日推荐</text>
     </view>
@@ -42,7 +42,8 @@
 <!--  recommend -->
   <view class = "recommendContainer">
   <!--   recommend header-->
-  <NavHeader title = "推荐歌曲" nav = "为你精心推荐"></NavHeader>
+  <NavHeader title = "推荐歌曲" nav = "为你精心推荐" >
+  </NavHeader>
   <!--recommend content-->
     <scroll-view
       class = "recommendScroll"
