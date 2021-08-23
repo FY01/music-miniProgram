@@ -480,6 +480,15 @@ Page({
   },
 
   /**
+   * 跳转到搜索页面的回调
+   */
+  toSearch(){
+    wx.navigateTo({
+      url:"/pages/search/search"
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {

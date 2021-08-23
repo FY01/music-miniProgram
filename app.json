@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/search/search",
     "pages/songDetail/songDetail",
     "pages/recommendSong/recommendSong",
     "pages/login/login",
@@ -39,5 +40,7 @@
       }
     ]
   },
-  "requiredBackgroundModes": ["audio"]
+  "requiredBackgroundModes": [
+    "audio"
+  ]
 }
