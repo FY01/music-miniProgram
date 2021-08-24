@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51eb71fc-df5b-4c61-a911-e574f247fd47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/personal/personal.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/personal/personal.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/video/video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/static/iconfont/iconfont.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,8 @@
       <workItem from="1629186970579" duration="2130000" />
       <workItem from="1629340080564" duration="5640000" />
       <workItem from="1629424811564" duration="11381000" />
-      <workItem from="1629600351839" duration="7465000" />
+      <workItem from="1629600351839" duration="7706000" />
+      <workItem from="1629769093931" duration="118000" />
     </task>
     <servers />
   </component>
